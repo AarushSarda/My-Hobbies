@@ -1,6 +1,5 @@
 body{
   text-align:center;
-  background: red;
     margin: 0;
     padding-top: 800px;
 }
@@ -46,3 +45,17 @@ body{
 .link:hover{
     background-color: darkorange
 }
+img:hover {
+    transform: scale(0.9) ;
+}
+img {
+    transition: transform .2s ;
+}
+img{
+    width: 150px;
+    height:200px;
+}
+h2:hover {
+  transform: scale(0.9) ;  
+}
+    
